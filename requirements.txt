@@ -1,0 +1,4 @@
+networkx==2.6.2
+casadi==3.5.5
+numpy==1.17.4
+scipy==1.7.1
