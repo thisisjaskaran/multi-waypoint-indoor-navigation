@@ -4,7 +4,7 @@ This repository is the codebase for the paper Multiple Waypoint Navigation in Un
 
 ## Introduction
 
-we present a multiple waypoint path planner and controller stack for navigation in unknown indoor environments where waypoints include the goal along with the intermediary points that the robot must traverse before reaching the goal. Our approach makes use of a global planner (to find the next best waypoint at any instant), a local planner (to plan the path to a specific waypoint) and an adaptive Model Predictive Control strategy (for robust system control and faster maneuvers).
+We present a multiple waypoint path planner and controller stack for navigation in unknown indoor environments where waypoints include the goal along with the intermediary points that the robot must traverse before reaching the goal. Our approach makes use of a global planner (to find the next best waypoint at any instant), a local planner (to plan the path to a specific waypoint) and an adaptive Model Predictive Control strategy (for robust system control and faster maneuvers).
 
 ## Installation
 
@@ -17,3 +17,5 @@ pip3 install -r requirements.txt
 ```bash
 python participant_controller.py
 ```
+
+This code was benchmarked and tested on the TIAGO Base robot by PAL Robotics, on the Webots simulator.
