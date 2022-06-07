@@ -1,9 +1,14 @@
-# iros2021challenge-controller-py
+# Multiple Waypoint Navigation in Unknown Indoor Environments
 
-This repository is part of the [2021 IROS-RSJ Robotic Challenge for Young Students](https://roboticslab-uc3m.github.io/challenge-iros2021)!
-
+This repository is lorem ipsum
 
 ## Installation
+
+```bash
+pip3 install -r requirements.txt
+```
+
+## Running the Code
 
 ```bash
 pip3 install -r requirements.txt
